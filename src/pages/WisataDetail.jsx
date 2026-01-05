@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import Layout from "../layouts/Layout";
-import { wisataDetail } from "../data/wisatadetail";
+import { wisataDetail } from "../data/wisataDetail";
 
 export default function DetailWisata() {
   const { slug } = useParams();
