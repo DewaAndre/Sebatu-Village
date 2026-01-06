@@ -70,7 +70,11 @@ export default function Home() {
             <p className="text-xs sm:text-sm md:text-base font-bold">
               Kecamatan Tegallalang, Kabupaten Gianyar
             </p>
-            <Link className="inline-block mt-4 px-6 py-2 bg-[#543A14] rounded-xl">
+            <Link
+              to="/wisata"
+              className="inline-block mt-4 px-6 py-2 bg-[#543A14] rounded-xl text-white font-semibold transition-all duration-300
+             hover:bg-[#7B5E2E] hover:shadow-lg"
+            >
               Explorasi Wisata
             </Link>
           </div>
