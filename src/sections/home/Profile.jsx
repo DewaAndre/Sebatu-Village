@@ -136,13 +136,12 @@ export default function Profile() {
     <div id="profile" className="bg-gray-300 py-10">
       <h2 className="text-center text-2xl font-bold mb-6">PROFILE DESA</h2>
 
-      {/* ================= GRID ================= */}
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+      <div className="overflow-x-auto hide-scrollbar">
+        <div className="flex gap-6 px-6 pb-4">
           {profiles.map((item, index) => (
             <div
               key={index}
-              className="bg-white rounded-xl shadow overflow-hidden"
+              className="bg-white rounded-xl shadow flex-shrink-0 w-[200px] overflow-hidden"
             >
               {/* FOTO */}
               <div className="h-[220px] w-full">
