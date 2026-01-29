@@ -130,6 +130,46 @@ export default function Profile() {
       role: "Cleaning Service Kantor Desa Sebatu",
       image: "/img/profile/windayani.jpeg",
     },
+    {
+      name: "I Ketut Cenik",
+      role: "Anggota BPD Bidang Pembinaan dan Pemberdayaan Masyarakat",
+      image: "/img/profile/cenik.jpeg",
+    },
+    {
+      name: "Ni Nyoman Anom",
+      role: "Anggota BPD Bidang Pembinaan dan Pemberdayaan Masyarakat",
+      image: "/img/profile/anom.jpeg",
+    },
+    {
+      name: "I Wayan Novi Arivin",
+      role: "Anggota BPD Bidang Pemerintahan dan Pembangunan Desa.",
+      image: "/img/profile/novi.jpeg",
+    },
+    {
+      name: "I Nyoman Ariawan",
+      role: "Anggota BPD Bidang Pemerintahan dan Pembangunan Desa.",
+      image: "/img/profile/ariawan.jpeg",
+    },
+    {
+      name: "I Wayan Novi Arivin",
+      role: "Anggota BPD Bidang Pemerintahan dan Pembangunan Desa.",
+      image: "/img/profile/arivin.jpeg",
+    },
+    {
+      name: "I Made Adnyana",
+      role: "Ketua BPD Sebatu.",
+      image: "/img/profile/adnyana.jpeg",
+    },
+    {
+      name: "Putu Adi Ekawati",
+      role: "Sekretars BPD Sebatu",
+      image: "/img/profile/ekawati.jpeg",
+    },
+    {
+      name: "I Wayan Suardila",
+      role: "Anggota BPD Bidang Pemerintahan dan Pembangunan Desa Sebatu",
+      image: "/img/profile/adi.jpeg",
+    },
   ];
 
   return (
